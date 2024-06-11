@@ -16,3 +16,8 @@ This explaination provides detailed steps to build a custom image for the i.MX8M
    ```sh
    git clone -b dunfell git://git.yoctoproject.org/poky.git
    cd poky
+   git clone -b dunfell https://github.com/Freescale/meta-freescale.git
+   git clone -b dunfell https://github.com/Freescale/meta-freescale-3rdparty.git
+   git clone -b dunfell https://github.com/meta-qt5/meta-qt5.git
+   git clone -b dunfell https://github.com/openembedded/meta-openembedded.git
+
