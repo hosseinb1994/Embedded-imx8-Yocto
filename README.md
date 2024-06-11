@@ -56,6 +56,6 @@ This explaination provides detailed steps to build a custom image for the i.MX8M
    bitbake core-image-minimal
 
 ## Generated Files
-    After the build completes successfully, the output images will be located in:
+After the build completes successfully, the output images will be located in:
    ```sh
    /Path/poky/build/tmp/deploy/images/imx8mmevk/
