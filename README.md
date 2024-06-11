@@ -35,14 +35,14 @@ This explaination provides detailed steps to build a custom image for the i.MX8M
 2. **Add the following lines to the BBLAYERS variable:**
    ```sh
    BBLAYERS ?= " \
-  /Your directory/poky/meta \
-  /Your directory/poky/meta-poky \
-  /Your directory/poky/meta-yocto-bsp \
-  /Your directory/poky/meta-freescale \
-  /Your directory/poky/meta-freescale-3rdparty \
-  /Your directory/poky/meta-qt5 \
-  /Your directory/poky/meta-openembedded/meta-oe \
-  /Your directory/poky/meta-openembedded/meta-python \
-  /Your directory/poky/meta-openembedded/meta-networking \
-  /Your directory/poky/meta-openembedded/meta-multimedia \
-"
+     /Your directory/poky/meta \
+     /Your directory/poky/meta-poky \
+     /Your directory/poky/meta-yocto-bsp \
+     /Your directory/poky/meta-freescale \
+     /Your directory/poky/meta-freescale-3rdparty \
+     /Your directory/poky/meta-qt5 \
+     /Your directory/poky/meta-openembedded/meta-oe \
+     /Your directory/poky/meta-openembedded/meta-python \
+     /Your directory/poky/meta-openembedded/meta-networking \
+     /Your directory/poky/meta-openembedded/meta-multimedia \
+      "
