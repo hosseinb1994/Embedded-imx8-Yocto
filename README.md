@@ -25,3 +25,24 @@ This explaination provides detailed steps to build a custom image for the i.MX8M
 3. **Set Up the Build Environment:**
    ```sh
    source oe-init-build-env
+
+## Configuring the Build
+
+1. **Edit conf/bblayers.conf to include the necessary layers:**
+   ```sh
+   code conf/bblayers.conf
+
+2. **Add the following lines to the BBLAYERS variable:**
+   ```sh
+   BBLAYERS ?= " \
+  /Your directory/poky/meta \
+  /Your directory/poky/meta-poky \
+  /Your directory/poky/meta-yocto-bsp \
+  /Your directory/poky/meta-freescale \
+  /Your directory/poky/meta-freescale-3rdparty \
+  /Your directory/poky/meta-qt5 \
+  /Your directory/poky/meta-openembedded/meta-oe \
+  /Your directory/poky/meta-openembedded/meta-python \
+  /Your directory/poky/meta-openembedded/meta-networking \
+  /Your directory/poky/meta-openembedded/meta-multimedia \
+"
