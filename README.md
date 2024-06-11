@@ -2,7 +2,7 @@
 This repository contains a custom-built operating system for the iMX platform, developed using the Yocto Project. It includes all necessary components and configurations for deploying a robust and efficient embedded system. Ideal for applications in medical industry.
 # Yocto Project for i.MX8M Mini EVK
 
-This guide provides detailed steps to build a custom image for the i.MX8M Mini EVK using the Yocto Project.
+This explaination provides detailed steps to build a custom image for the i.MX8M Mini EVK using the Yocto Project.
 
 ## Prerequisites
 
